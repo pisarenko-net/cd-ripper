@@ -1,6 +1,6 @@
 # cd-ripper -- Headless CD ripper
 
-Collection of scripts and configurations for a headless CD rip system based raspberry pi.
+Collection of scripts and configurations for a headless CD rip system based on raspberry pi or any other Linux system.
 
 Typical usage:
  1. trigger on new inserted disc
