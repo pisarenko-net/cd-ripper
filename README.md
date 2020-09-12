@@ -9,3 +9,19 @@ Typical usage:
  4. eject CD
 
 The goal is to have as little interaction as possible and keep feeding CDs as soon as the tray opens.
+
+## Required packages
+
+ * abcde
+ * eject
+ * samba samba-common-bin smbclient cifs-utils
+
+## Goals
+
+This will become part of the custom CD deck build. Following features are hence necessary:
+ * alert and fail if the SMB isn't mounted
+ * indicate when a CD rip is in progress
+ * indicate how long a rip is taking
+ * set maximum rip duration and abort if exceeding
+ * indicate total tracks and the current track number
+ * ability to interrupt an ongoing rip
