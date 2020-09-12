@@ -25,3 +25,4 @@ This will become part of the custom CD deck build. Following features are hence 
  * set maximum rip duration and abort if exceeding
  * indicate total tracks and the current track number
  * ability to interrupt an ongoing rip
+ * reliable locking and event monitoring (CD detection)
